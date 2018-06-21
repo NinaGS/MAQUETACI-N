@@ -1,0 +1,83 @@
+
+/*TÍTULO*/
+h1 {
+  font-family: Raleway-700, sans-serif;
+ }
+
+ h3{
+ 	font-family: OpenSans, sans-serif;
+ }
+
+ .title-light{
+ 	font-family: Raleway, sans-serif;
+ 	
+ }
+
+/*BARRA DE NAVEGACIÓN*/
+
+.logo-tiatomate{
+	width: 300px;
+	margin-left: 50px;
+}
+
+.nav-link{
+	color: #707070;
+	margin-right: -5px;
+
+}
+
+.navbar_tiatomate{
+	margin-right: 100px;
+}
+
+/*HEADER*/
+
+.header__tiatomate{
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #E56353;
+	height: 300px;
+	padding-top: 100px;
+}
+
+/*BLOG*/
+
+.foto{
+	background-color: black;
+	
+}
+
+.row1{
+	box-sizing: border-box;
+	background-color: #707070;
+	color: #FFFFFF;
+
+}
+
+.blog__inner2{
+	padding: 30px 30px 30px 30px;
+}
+.blog__inner3{
+	padding: 30px 30px 30px 30px;
+}
+
+.row2{
+	box-sizing: border-box;
+	background-color: #FAFAFA;
+	color: #686963;
+}
+
+/*NOSOTROS*/
+.nosotros__inner-top{
+	background-color: #E56353;
+	height: 250px;
+	padding-top: 100px;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.row_nosotros{
+	padding: 100px 100px 10px 100px;
+
+}
+
