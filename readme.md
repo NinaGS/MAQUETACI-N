@@ -1,5 +1,7 @@
 #Proceso de Maquetación
 
+https://ninags.github.io/PRE-MAQUETADO/
+
 ##-Requisitos del cliente
 
 - Se debe realizar una maqueta de la página "Acerca de" tipo landing page para la empresa productora de tomates orgánicos 'Tía Tomate'.
@@ -20,7 +22,7 @@
 - Secciones con grilla
  - *Usar "bootstrap"*.
 - Párrafos en general
- - *El cliente no necesita que ralicemos el contenido así que se usará "lorem ipsum"*. 
+ - *El cliente no necesita que realicemos el contenido así que se usará "lorem ipsum"*. 
  
 ##-Requisitos visuales
 
@@ -63,12 +65,12 @@
 
 ####Diseño para Desktop
 
-![](sketch/desktop.png)
+![](pre-maquetado/sketch/desktop.png)
 
 
 
 ####Diseño para dispositivos móviles
 
-![](sketch/movil.png)
+![](pre-maquetado/sketch/movil.png)
 
 
