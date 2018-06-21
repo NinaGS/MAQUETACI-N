@@ -1,64 +1,74 @@
-# Maquetación - Front End B-learning
+#Proceso de Maquetación
 
-## Pre-maquetado de página Tía Tomate
+##-Requisitos del cliente
 
-### Instrucciones: 
+- Se debe realizar una maqueta de la página "Acerca de" tipo landing page para la empresa productora de tomates orgánicos 'Tía Tomate'.
 
-Aplicando todo los conceptos y herramientas aprendidas en la experiencia online de maquetación, planifica la construcción de la página web de "Tía Tomate".
 
-Revisa el mockup [aquí](img/tiatomate-desktop.png).
+##-Requisitos generales
+ - Una barra de navegación y un footer. Cada uno mostrando el logo. En el footer se pondrán íconos de redes sociales de la página.
+ - Cuatro secciones definiendo el nombre de las clases:
+  - Sección "Header" donde se mostrará un título.
+  - Sección "Blog" donde se dé a conocer a sus clientes un poco de la historia de la empresa y procedencia de sus productos.
+  - Sección "Nosotros" donde muestre a algunas de las personas que cosechan sus verduras.
+  - Sección "Compra" donde se debe dar énfasis a la compra de sus productos.
+  - La página debe ser responsiva.
 
-![Mockup blog barbería](img/tiatomate-desktop.png)
+##-Requisitos específicos
+- Íconos de redes sociales color blanco y redondeados.
+ - *Usar "font awesome"*.
+- Secciones con grilla
+ - *Usar "bootstrap"*.
+- Párrafos en general
+ - *El cliente no necesita que ralicemos el contenido así que se usará "lorem ipsum"*. 
+ 
+##-Requisitos visuales
 
-La empresa productora de tomates orgánicos llamada **Tía Tomate** pide crear una maqueta de la página "acerca de".
+- Layout:
+ - *Usar Bootstrap*.
+- Fuentes *(Usar fuentes entregadas por diseñador del mockup que están en la guía de estilos*)
+ - Títulos: Relaway Bold y Relaway ExtraLight.
+ - Párrafos y otros: OpenSans-Regular.
+- Colores:
+ - Letras #FFFFFF y #707070
+ - Barra de navegación #707070
+ - Letras de barra de navegación #707070
+ - Footer #686963
+ - Letras de footer #FFFFFF
+- Imágenes: 
+ - Utilizar imágenes facilitadas por el cliente.
+- Íconos de redes sociales color blanco y redondeados.
+ - *Usar "font awesome"*.
 
-En ella desean mostrar a sus clientes una pequeña reseña sobre su historia, la procedencia de sus productos y mostrar a las personas que trabajan cosechando estas verduras.
+##*Especificación de clases
 
-Según sus requerimientos la página debe:
+- Barra de navegación:
+ - clase: navbar__navigation
+ - clase navbar_tiatomate
+- Sección Header 
+ - clase header_tiatomate
+- Sección Blog
+ - clase blog__inner (para textos)
+ - clase blog__inner_background (para imágenes)
+- Sección Nosotros
+ - clase nosotros__inner
+ - clase nosotros__inner_background
+- Compra 
+ - clase compra
+ - button__compra
+- Footer
+ - clase footer_tiatomate
 
-- Ser responsiva
-- Mostrar la pasión que sienten por sus tomates
-- Dar enfásis a la compra de sus productos
-- Mostrar el logo de la empresa
+##*Sketch del sitio
 
-El diseñador del mockup envío una [guía de estilos](img/tiatomate-guia-de-estilos.png) con las imágenes, colores y fuentes que usó para crear esta representación visual (puedes encontrar los assets en el siguiente [link](../assets)).
+####Diseño para Desktop
 
-Además, ellos comentan que crearán el contenido de su página web con la persona encargada de mantener sus redes sociales. 
+![](sketch/desktop.png)
 
-### Requsitos generales:
 
-Teniendo todo esto en cuenta deberás:
 
-- Entender todos los requerimientos visuales y técnicos de la página web.
-- Crear un listado resumiendo todos los requerimientos recopilados a través del desafío.
-- Construir un sketch el cuál muestre las secciones de la página, junto con la estructura HTML y CSS (clases) que decidiste hacer para esta.
-- Crear otro sketch que muestre la página web pero esta vez para dispositivos móviles.
--	Crear la estructura de directorios de la página web.
--	Agregar todas las dependencias necesarias para la web.
+####Diseño para dispositivos móviles
 
-**Si aún te queda tiempo comienza a construir la página web.**
+![](sketch/movil.png)
 
-Luego de terminar, documenta todo el proceso que hiciste dentro de un **README.md**, agregando:
 
-- Un listado con los requerimientos visuales y técnicos de la web.
-- Una foto con los sketch de la versión escritorio y móvil.
-- Una descripción de las secciones, layout, estructura HTML y clases CSS que decidiste usar.
-
-Además debes agregar la estructura de directorio que hiciste, junto con las dependencias y otros archivos necesarios usados en el proyecto.
-  
-### Criterios de evaluación:
-
-- Organización de los requerimientos
-- Utilización de BEM para la creación de clases CSS
-- Descripción de los layout y secciones
-- Creación de sketch para formato móvil y de escritorio
-- Creación de los directorios
-- Integración de dependencias y otros archivos necesarios en los directorios
-- Creación de README.md con todo el proceso documentado
-- Uso de GIT para versionar el desafío
-- Creación de repositorio con el desafío
-- Entrega del desafío a través de la plataforma desafío
-
-Luego de terminar debes enviar los cambios (vía push) y subir el link del repositorio a la sección correspondiente en la plataforma [empieza](https://empieza.desafiolatam.com "Desafío Latam").
-
-Mucha suerte!
