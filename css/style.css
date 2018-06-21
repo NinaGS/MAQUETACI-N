@@ -16,7 +16,7 @@ h1 {
 /*BARRA DE NAVEGACIÓN*/
 
 .logo-tiatomate{
-	width: 300px;
+	width: 250px;
 	margin-left: 50px;
 }
 
@@ -27,7 +27,7 @@ h1 {
 }
 
 .navbar_tiatomate{
-	margin-right: 100px;
+	margin-right: 50px;
 }
 
 /*HEADER*/
@@ -42,42 +42,80 @@ h1 {
 
 /*BLOG*/
 
-.foto{
-	background-color: black;
-	
-}
 
-.row1{
-	box-sizing: border-box;
+.blog-1{
 	background-color: #707070;
 	color: #FFFFFF;
-
-}
-
-.blog__inner2{
-	padding: 30px 30px 30px 30px;
-}
-.blog__inner3{
-	padding: 30px 30px 30px 30px;
-}
-
-.row2{
+	text-align: center;
 	box-sizing: border-box;
-	background-color: #FAFAFA;
-	color: #686963;
+	padding: 30px 30px 30px 30px;
+	width: 100%;
+
 }
+
 
 /*NOSOTROS*/
 .nosotros__inner-top{
 	background-color: #E56353;
-	height: 250px;
-	padding-top: 100px;
+	height: 200px;
+	padding-top: 75px;
+	margin-bottom: 100px;
 	color: #FFFFFF;
 	text-align: center;
 }
 
-.row_nosotros{
-	padding: 100px 100px 10px 100px;
+
+.javiera-foto{
+	box-sizing: border-box;
+	width: 500px;
+	padding: 0px 80px 80px 80px;
+}
+
+.roberto-foto{
+	box-sizing: border-box;
+	width: 500px;
+	padding: 0px 80px 80px 80px;
+}
+
+.nosotros-texto{
+	box-sizing: border-box;
+	padding: 60px 0px 60px 60px;
+	color: #686963;
+} 
+	
+
+/*COMPRA*/
+.compra{
+	background-color: #E56353;
+	height: 250px;
+	padding-top: 50px;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.button_compra{
+	color:#686963;
+	background-color: #FFFFFF;
+	border-radius: 30px;
+	width: 200px;
+	margin: 20px 0px 20px 0px;
 
 }
 
+/*FOOTER*/
+
+.logo-tiatomate-footer{
+	width: 200px;
+	margin-left: 100px;
+}
+
+.footer__navigation{
+	background-color: #686963;
+
+
+}
+
+.nav-link-footer{
+	color: #FFFFFF;
+	margin-right: 100px;
+}
