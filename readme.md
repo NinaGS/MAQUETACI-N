@@ -1,13 +1,13 @@
-#Proceso de Maquetación
+# Proceso de Maquetación
 
 https://ninags.github.io/PRE-MAQUETADO/
 
-##-Requisitos del cliente
+## -Requisitos del cliente
 
 - Se debe realizar una maqueta de la página "Acerca de" tipo landing page para la empresa productora de tomates orgánicos 'Tía Tomate'.
 
 
-##-Requisitos generales
+## -Requisitos generales
  - Una barra de navegación y un footer. Cada uno mostrando el logo. En el footer se pondrán íconos de redes sociales de la página.
  - Cuatro secciones definiendo el nombre de las clases:
   - Sección "Header" donde se mostrará un título.
@@ -16,7 +16,7 @@ https://ninags.github.io/PRE-MAQUETADO/
   - Sección "Compra" donde se debe dar énfasis a la compra de sus productos.
   - La página debe ser responsiva.
 
-##-Requisitos específicos
+## -Requisitos específicos
 - Íconos de redes sociales color blanco y redondeados.
  - *Usar "font awesome"*.
 - Secciones con grilla
@@ -24,7 +24,7 @@ https://ninags.github.io/PRE-MAQUETADO/
 - Párrafos en general
  - *El cliente no necesita que realicemos el contenido así que se usará "lorem ipsum"*. 
  
-##-Requisitos visuales
+## -Requisitos visuales
 
 - Layout:
  - *Usar Bootstrap*.
@@ -42,7 +42,7 @@ https://ninags.github.io/PRE-MAQUETADO/
 - Íconos de redes sociales color blanco y redondeados.
  - *Usar "font awesome"*.
 
-##*Especificación de clases
+## *Especificación de clases
 
 - Barra de navegación:
  - clase: navbar__navigation
@@ -61,15 +61,15 @@ https://ninags.github.io/PRE-MAQUETADO/
 - Footer
  - clase footer_tiatomate
 
-##*Sketch del sitio
+## *Sketch del sitio
 
-####Diseño para Desktop
+#### Diseño para Desktop
 
 ![](pre-maquetado/sketch/desktop.png)
 
 
 
-####Diseño para dispositivos móviles
+#### Diseño para dispositivos móviles
 
 ![](pre-maquetado/sketch/movil.png)
 
